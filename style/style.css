@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Raleway;
+}
+
+.hero {
+    background-color: #d2e6e4;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.herstxt {
+    color: #2d70bf !important;
+}
+
+.herstxt1 {
+    color: #0B7077 !important;
+}
+
+.bg-idcard {
+    background-color: #D2E6E4;
+}
+
+.customhover:hover {
+    color: brown !important;
+}
+
+.btn-primary1 {
+    background-color: #FEDE5E;
+}
+
+.btn-primary1:hover {
+    background-color: #CFF4FC;
+}
+
+.benefit-img-div {
+    width: 450px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 576px) {
+    .col-6 {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    /* .benefit-img-div {
+        width: auto;
+        height: 100%;
+    } */
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .col-6 {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .benefit-img-div {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col-6 {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .benefit-img-div {
+        width: auto;
+        height: 100%;
+    }
+}
