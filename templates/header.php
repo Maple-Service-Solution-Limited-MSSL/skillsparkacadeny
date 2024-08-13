@@ -140,7 +140,7 @@
       }
 </style>
   </head>
-  <body class="m-0 border-0 m-0 border-0">
+  <body class="">
     <header class="fixed-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-4">

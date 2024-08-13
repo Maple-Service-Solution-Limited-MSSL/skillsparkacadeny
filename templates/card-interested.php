@@ -1,4 +1,4 @@
-<section class="bg-light bg-gradient">
+<section class="bg-light bg-gradient pt-5">
     <div class="container px-4 py-5" id="featured-3">
         <h2 class="display-6 pb-2 border-bottom text-center text-success fw-bold">Our Courses is Designed for</h2>
         <div class="row g-5 py-5 row-cols-1 row-cols-lg-4 text-center">
