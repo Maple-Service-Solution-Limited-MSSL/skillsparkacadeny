@@ -15,8 +15,10 @@
         <div class="hero">
             <div class="container py-5 hero-div">
                 <div class="row flex-lg-row-reverse align-items-center py-5">
-                    <div class="col-6 hero-img">
-                        <img src="./assets/images/hero-img.png" class="img-fluid mb-2" alt="Hero Image" loading="lazy">
+                    <div class="col-6 hero-img-div">
+                        <!-- <img src="./assets/images/hero-img.png" class="img-fluid mb-2 hero-img" alt="Hero Image" width="100%" height="100%"> -->
+                        <img src="./assets/images/hero-img.png" class="img-fluid d-none d-md-block hero-img" alt="Hero Image">
+                        <img src="./assets/hero-img-mbl.png" class="img-fluid d-block d-md-none hero-img" alt="Hero Image">
                     </div>
                     <div class="col-6">
                         <h1 class="display-5 fw-bold lh-1 my-4 herstxt">Grow up your skills by online courses with Onlearning</h1>

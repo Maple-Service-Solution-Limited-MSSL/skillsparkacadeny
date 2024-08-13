@@ -31,11 +31,11 @@
         <div class="col mb-3 px-5 footer-style">
           <h5 class="fw-bold mb-4 text-primary ">Information</h5>
           <ul class="nav flex-column fw-medium">
-            <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About us</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact us</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms & Condition</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+            <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-body-secondary customhover">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">About us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">Contact us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">Terms & Condition</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="col mb-3">
@@ -71,8 +71,8 @@
     </div>
   </div>
 </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" async></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" async></script>
   </body>
 </html>
