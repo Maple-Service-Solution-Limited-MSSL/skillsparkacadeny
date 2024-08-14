@@ -9,13 +9,12 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
     <style>
       .area{
         background: #d2e6e4; 
         background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
         width: 100%;
-        height: 100vh;
         z-index: 0;
         position: relative;
       }
@@ -144,7 +143,8 @@
     <header class="fixed-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-4">
-          <a class="navbar-brand col-5" href="#"><img src="./assets/images/logo4.png" alt="" class="navbar-brand" width="auto" height="60"></a>
+          <a class="navbar-brand col-5 d-none d-md-block" href="#"><img src="./assets/images/logo4.png" alt="" class="navbar-brand " width="auto" height="60"></a>
+          <a class="navbar-brand col-5 brand d-block d-md-none" href="#"><img src="./assets/images/logo-mbl.png" alt="" class="navbar-" ></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

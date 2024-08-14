@@ -3,7 +3,7 @@
       <div class="row py-5 border-top row-cols-1 row-cols-sm-2 row-cols-md-4">
         <div class="col my-5">
           <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-            <img src="./assets/images/logo4.png" alt="" class="img-fluid">
+            <img src="./assets/images/logo4.png" alt="" class="img-fluid" loading="lazy">
           </a>
           <div class="d-flex justify-content-center">
             <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">

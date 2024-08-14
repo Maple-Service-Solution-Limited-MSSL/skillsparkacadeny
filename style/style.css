@@ -54,7 +54,7 @@ button {
 button::before {
     content: '';
     width: 0;
-    height: 450%;
+    height: 650%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,11 +82,19 @@ button:hover {
         width: 100%;
     }
 
+    /* .v6 {
+        margin-left: 15px;
+    } */
+
     .footer-style {
         padding-left: 15px !important;
     }
 
     .herstxt {
+        text-align: center;
+    }
+
+    .lead {
         text-align: center;
     }
 

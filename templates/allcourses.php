@@ -36,7 +36,7 @@
                                 <!-- Card 1 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/web-development.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/web-development.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard " style="background-color: #012e5236">
                                         <h3 class="fw-medium  pb-2 text-strat ">Web Development</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -51,7 +51,7 @@
                                  <!-- Card 2 -->
                                  <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/video_editing.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/video_editing.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard"  style="background-color: #4b209636">
                                         <h3 class="fw-medium pb-2 text-strat ">Video Editing</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -66,7 +66,7 @@
                                  <!-- Card 3 -->
                                  <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/digital-marketing-1.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/digital-marketing-1.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard" style="background-color: #00093436">
                                         <h3 class="fw-medium  pb-2 text-strat ">Digital Marketing</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -81,7 +81,7 @@
                                 <!-- Card 4 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/SEO.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/SEO.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard">
                                         <h3 class="fw-medium  pb-2 text-strat">Search Engine Optimization (SEO)</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -96,7 +96,7 @@
                                 <!-- Card 5 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/SMM.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/SMM.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard">
                                         <h3 class="fw-medium  pb-2 text-strat ">Social Media Marketing (SMM)</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -136,7 +136,7 @@
                                 <!-- Card 1 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/web-development.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/web-development.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard " style="background-color: #012e5236">
                                         <h3 class="fw-medium  pb-2 text-strat ">Web Design & Development</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -151,7 +151,7 @@
                                 <!-- Card 2 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/web-development.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/web-development.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard">
                                         <h3 class="fw-medium  pb-2 text-strat ">WordPress Design & Cuztomization</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -176,7 +176,7 @@
                                 <!-- Card 3 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/digital-marketing-1.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/digital-marketing-1.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard" style="background-color: #00093436">
                                         <h3 class="fw-medium  pb-2 text-strat ">Digital Marketing</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -191,7 +191,7 @@
                                 <!-- Card 4 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/SEO.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/SEO.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard">
                                         <h3 class="fw-medium  pb-2 text-strat">Search Engine Optimization (SEO)</h3>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -206,7 +206,7 @@
                                 <!-- Card 5 -->
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img src="./assets/SMM.jpg" alt="" class="border rounded-top img-fluid">
+                                        <img src="./assets/SMM.jpg" alt="" class="border rounded-top img-fluid" loading="lazy">
                                         <div class="card-body bg-idcard">
                                         <h3 class="fw-medium  pb-2 text-strat ">Social Media Marketing (SMM)</h3>
                                         <div class="d-flex justify-content-between align-items-center">
