@@ -5,7 +5,7 @@
                 <h2 class="py-3 fw-bold text-success">Get Student ID card, Certificate & Career Opportunities</h2>
                 <div class="d-flex">
                     <img src="./assets/icon/icon1.png" alt="" width="40px" height="40px" class="rounded-4" loading="lazy">
-                    <p class="ps-2">Teachers don’t get lost in the grid view and have a dedicated Podium space.</p>
+                    <p class="ps-2">Get your exclusive Skillspark Academy student ID card, unlocking identity verification and special perks.</p>
                 </div>
                 <div class="d-flex">
                 <img src="./assets/icon/icon2.png" alt="" width="40px" height="40px" class="rounded-4" loading="lazy">
