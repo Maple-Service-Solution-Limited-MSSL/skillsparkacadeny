@@ -143,18 +143,18 @@
     <header class="fixed-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-4">
-          <a class="navbar-brand col-5 d-none d-md-block" href="#"><img src="./assets/images/logo4.png" alt="" class="navbar-brand " width="auto" height="60"></a>
-          <a class="navbar-brand col-5 brand d-block d-md-none" href="#"><img src="./assets/images/logo-mbl.png" alt="" class="navbar-" ></a>
+          <a class="navbar-brand col-5 d-none d-md-block" href="/skilspark"><img src="./assets/images/logo4.png" alt="" class="navbar-brand " width="auto" height="60"></a>
+          <a class="navbar-brand col-5 brand d-block d-md-none" href="/skilspark"><img src="./assets/images/logo-mbl.png" alt="" class="navbar-" ></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold ">
               <li class="nav-item">
-                <a class="nav-link customhover active text-primary" aria-current="page" href="#">Home</a>
+                <a class="nav-link customhover active text-primary" aria-current="page" href="/skilspark">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link customhover" href="#">About</a>
+                <a class="nav-link customhover" href="about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link customhover" href="#">Contact</a>
