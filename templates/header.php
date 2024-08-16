@@ -1,3 +1,11 @@
+<?php
+$requestUri = $_SERVER['REQUEST_URI'];
+$baseUrl = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/') . '/';
+function isActive($link) {
+    global $requestUri, $baseUrl;
+    return $requestUri == $baseUrl . $link ? 'active text-primary' : '';
+}
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
     <title>SkillSpark Academy</title>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
@@ -15,13 +23,13 @@
         background: #d2e6e4; 
         background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
         width: 100%;
-        z-index: 0;
+        z-index: 1;
         position: relative;
       }
 
       .hero {
           position: relative;
-          z-index: 1; 
+          z-index: 0; 
       }
 
       .circles{
@@ -144,25 +152,25 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-4">
           <a class="navbar-brand col-5 d-none d-md-block" href="/skilspark"><img src="./assets/images/logo4.png" alt="" class="navbar-brand " width="auto" height="60"></a>
-          <a class="navbar-brand col-5 brand d-block d-md-none" href="/skilspark"><img src="./assets/images/logo-mbl.png" alt="" class="navbar-" ></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <a class="navbar-brand col-5 brand d-block d-md-none" href="/skilspark"><img src="./assets/images/logo-mbl.png" alt="" class="navbar-brand " ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold ">
               <li class="nav-item">
-                <a class="nav-link customhover active text-primary" aria-current="page" href="/skilspark">Home</a>
+                <a class="nav-link customhover  <?php echo isActive(''); ?>" aria-current="page" href="/skilspark">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link customhover" href="about">About</a>
+                <a class="nav-link <?php echo isActive('about'); ?> customhover " href="about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link customhover" href="#">Contact</a>
+                <a class="nav-link <?php echo isActive('contact'); ?> customhover" href="contact">Contact</a>
               </li>
               <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Course
-        </a>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Web Development</a></li>
                   <li><a class="dropdown-item" href="#">Digital Marketing</a></li>

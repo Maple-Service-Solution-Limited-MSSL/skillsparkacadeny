@@ -9,11 +9,11 @@
                 </div>
                 <div class="d-flex">
                 <img src="./assets/icon/icon2.png" alt="" width="40px" height="40px" class="rounded-4" loading="lazy">
-                    <p class="ps-2">Teachers don’t get lost in the grid view and have a dedicated Podium space.</p>
+                    <p class="ps-2">We offers professional student certificates, empowering learners to showcase their achievements and skills with industry-recognized credentials.</p>
                 </div>
                 <div class="d-flex">
                 <img src="./assets/icon/icon3.png" alt="" width="40px" height="40px" class="rounded-4" loading="lazy">
-                    <p class="ps-2">Teachers don’t get lost in the grid view and have a dedicated Podium space.</p>
+                    <p class="ps-2">SkillSpark Academy provide career opportunities to help you grow professionally.</p>
                 </div>
                 
             </div>

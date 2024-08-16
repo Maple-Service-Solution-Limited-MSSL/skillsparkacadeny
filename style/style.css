@@ -5,7 +5,11 @@ body {
 }
 
 .herstxt {
-    color: #2d70bf !important;
+    /* color: #2d70bf !important; */
+    background: #2D70BF;
+    background: linear-gradient(to right, #2D70BF 35%, #198754 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .herstxt1 {
@@ -33,7 +37,7 @@ body {
     height: 300px;
 }
 
-/* From Uiverse.io by nikk7007 */
+/* */
 button {
     /* padding: 0.8em 1.8em; */
 
