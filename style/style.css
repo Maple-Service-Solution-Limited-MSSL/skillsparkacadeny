@@ -37,6 +37,32 @@ body {
     height: 300px;
 }
 
+.sticky-card {
+    position: fixed;
+    width: 25px;
+    height: 150px;
+    /* bottom: 40px; */
+    top: 40%;
+    /* right: 400px; */
+    background-color: #198754;
+    color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 3;
+    /* margin: auto; */
+    /* transform: rotate(-0deg); */
+
+}
+
+.sticy-text {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    margin-left: 0px;
+    margin-top: 20px;
+    letter-spacing: 0.4px;
+}
+
 /* */
 button {
     /* padding: 0.8em 1.8em; */
