@@ -6,10 +6,10 @@
                 <img src="./assets/images/logo4.png" alt="" class="img-fluid" loading="lazy">
               </a>
               <div class="d-flex justify-content-center">
-                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                <a href="https://www.facebook.com/profile.php?id=61564285860887" target="_blank" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
                 <i class="fa-brands fa-facebook fa-xl pe-2"></i></a>
 
-                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                <a href="https://youtube.com/@SkillSparkAcademyMSSL?fbclid=IwZXh0bgNhZW0CMTAAAR2Uokk91kal_sZqfA1pmAfMYdF9pEMIIgK4H9wEiCFu5mluwO2FPSClMhM_aem_Eg4_DJlbyzMqxbYeRrY4Cw" target="_blank" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
                 <i class="fa-brands fa-youtube fa-xl pe-2"></i></a>
 
                 <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
@@ -25,15 +25,15 @@
             <div class="col mb-3">
               <h5 class="fw-bold mb-4 text-primary ">About Us</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2 fw-normal"><p>Maple Service Solution is on the way to the top IT consulting firms this year. We’re here to assist you in reaching your online goals with our skilled team.</p></li>
+                <li class="nav-item mb-2 fw-normal"><p>SkillSpark Academy is a academic wing of Maple Service Solution LTD. Maple Service Solution is on the way to the top IT consulting firms this year. We’re here to assist you in reaching your online goals with our skilled team.</p></li>
               </ul>
             </div>
             <div class="col mb-3 px-5 footer-style">
               <h5 class="fw-bold mb-4 text-primary ">Information</h5>
               <ul class="nav flex-column fw-medium">
                 <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-body-secondary customhover">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">About us</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">Contact us</a></li>
+                <li class="nav-item mb-2"><a href="about" class="nav-link p-0 text-body-secondary customhover">About us</a></li>
+                <li class="nav-item mb-2"><a href="contact" class="nav-link p-0 text-body-secondary customhover">Contact us</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">Terms & Condition</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary customhover">Privacy Policy</a></li>
               </ul>
@@ -70,7 +70,6 @@
               <p class="text-center text-body-secondary fw-medium">© 2024 SkillSpark Academy</p>
               <div class="text-center">Made with <span><i class="fa-solid fa-heart" style="color: #cb2020;"></i></span> Maple Service Solution Limited</div>
             </div>
-            
         </div>
       </div>
     </footer>

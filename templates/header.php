@@ -17,6 +17,7 @@ function isActive($link) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="./assets/icon/favicon.png">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
     <style>
       .area{
@@ -172,19 +173,27 @@ function isActive($link) {
             Courses
           </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                  <li><a class="dropdown-item" href="#">Video Editing</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
+                  <li><a class="dropdown-item" href="#">WordPress Design & Cuztomization</a></li>
+                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-                  <!-- <li><hr class="dropdown-divider"></li> -->
                   <li><a class="dropdown-item" href="#">SEO</a></li>
+                  <li><a class="dropdown-item" href="#">SMM</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  
                 </ul>
               </li>
               
             </ul>
-            <form class="d-flex" role="search">
+            <!-- <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <input type="button" class="btn btn-success" value="Search">
-              <!-- <button class="btn btn-success" type="submit">Search</button> -->
-            </form>
+              
+            </form> -->
+            <button class="btn  btn-primary" type="submit"><a href="courses" class="link-underline link-underline-opacity-0 text-light fw-medium">Browse Course<i class="fa-solid fa-arrow-right ps-2" style="color: #ffffff;"></i></a></button>
           </div>
         </div>
       </nav>
